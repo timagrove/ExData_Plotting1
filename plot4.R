@@ -23,7 +23,7 @@ plot(strptime(paste(data$Date, data$Time, sep=" "), "%d/%m/%Y %H:%M:%S"),
 plot(strptime(paste(data$Date, data$Time, sep=" "), "%d/%m/%Y %H:%M:%S"), 
      as.numeric(data$Voltage), 
      type="l", 
-     xlab="strptime(paste(data$Date, data$Time, sep=\" \"), \"%d/%m/%Y %H:%M:%S\")", 
+     xlab="datetime", 
      ylab="as.numeric(data$Voltage)")
 
 plot(strptime(paste(data$Date, data$Time, sep=" "), "%d/%m/%Y %H:%M:%S"), 
@@ -52,7 +52,7 @@ legend("topright",
 plot(strptime(paste(data$Date, data$Time, sep=" "), "%d/%m/%Y %H:%M:%S"), 
      as.numeric(data$Global_reactive_power), 
      type="l", 
-     xlab="strptime(paste(data$Date, data$Time, sep=\" \"), \"%d/%m/%Y %H:%M:%S\")", 
+     xlab="datetime", 
      ylab="Global_reactive_power")
 
 dev.off()
