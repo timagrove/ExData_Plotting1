@@ -1,3 +1,13 @@
+## NOTES
+
+This repository was forked from rdpeng/ExData_Plotting1 per the instructions in the project.  The data was placed in a subfolder of the repository which was creatively called "data".  That folder is being ignored for replication by the .gitignore file located in this root folder.  The first line of code aftger loading the required libraries is to set the working directory:
+
+setwd("~/GitHub/ExData_Plotting1/data")
+
+The png() function is called including "../" in the file name to place the file up one level from "data", in the root of the repository.
+
+(Everything below this line was in the original README.md)
+
 ## Introduction
 
 This assignment uses data from
